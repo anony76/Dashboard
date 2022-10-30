@@ -1,11 +1,8 @@
 import React from "react";
 
-const DashboardLayout = () => {
-  return (
-    <div className="DashboardLayout">
-      <h1>This is DashboardLayout</h1>
-    </div>
-  );
+const DashboardLayout = (props) => {
+  const { children } = props;
+  return <div className="DashboardLayout">{children}</div>;
 };
 
 export default DashboardLayout;
