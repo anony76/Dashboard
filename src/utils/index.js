@@ -1,3 +1,3 @@
 import Pathname from "./Pathname/Pathname";
-
-export { Pathname };
+import MenuItem from "./MenuItem/MenuItem";
+export { Pathname, MenuItem };
