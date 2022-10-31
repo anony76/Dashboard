@@ -1,0 +1,25 @@
+@import "../../styles/sass/mixin";
+
+.SearchBar {
+  width: 400px;
+  height: 90%;
+  padding: 3rem;
+  background-color: #e1dcff;
+  border-radius: 0.8rem;
+
+  @include flex(center, none, none);
+  gap: 2rem;
+  &--Icon {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fdfdfd;
+    @include flex(center, center, center);
+  }
+
+  &--Input {
+    width: 70%;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    background-color: #fdfdfd;
+  }
+}
