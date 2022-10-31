@@ -1,0 +1,16 @@
+@import "../../styles/sass/mixin";
+.Dashboard {
+  width: 100%;
+  height: 100%;
+
+  @include flex(none, none, none);
+  gap: 1rem;
+  &--SideMenu {
+    width: 30%;
+    height: 100%;
+  }
+  &--Table {
+    width: 100%;
+    height: 100%;
+  }
+}
